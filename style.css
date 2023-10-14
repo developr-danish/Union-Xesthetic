@@ -75,9 +75,14 @@ svg{
 /* <!-- welcome part end from here --> */
 
 /* Our plan part start from here */
+#our-plans{
+    position: relative;
+    padding: 0;
+}
 .card{
     border: 3px solid #d46531;
     margin-bottom: 20px;
+    box-shadow: rgba(55, 55, 55, 0.792) 0px 2px 8px 0px;
 }
 #our-plans ul{
     display: inline-block;
