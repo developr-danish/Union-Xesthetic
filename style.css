@@ -21,6 +21,9 @@ Span{
 #navbar ul li a:hover{
     color: #d46531;
 }
+.navbar-toggler-icon{
+    background-image: url(assets/hamburger-menu-6-32.png) !important;
+}
 
 .dropdown-menu{
     transition: all 1s ease-in !important;
