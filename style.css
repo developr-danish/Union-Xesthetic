@@ -15,7 +15,7 @@ Span{
 #navbar ul li a{
     color: black;
     font-weight: 500;
-    padding: 10px 40px;
+    padding: 10px 30px;
     font-size: 18px;
     transition: 0.7s;
 }
@@ -69,7 +69,7 @@ Span{
 svg{
     position: absolute;
     z-index: -999;
-    bottom: 0;
+    bottom: 0
 }
 
 /* <!-- welcome part end from here --> */
