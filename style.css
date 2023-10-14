@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'josefin sans';
 }
 Span{
     color: #d46531;
@@ -58,10 +59,18 @@ Span{
 /* main page background image end from here */
 
 /* <!-- welcome part start from here --> */
+#welcome{
+    padding: 0;
+    position: relative;
+}
 #welcome h1 ,h2{
     text-wrap: nowrap !important;
 }
-
+svg{
+    position: absolute;
+    z-index: -999;
+    bottom: 0;
+}
 
 /* <!-- welcome part end from here --> */
 
@@ -133,6 +142,7 @@ form textarea{
  }
 
  form select{
+    outline: none !important;
     width: 100%;
     height: 57px;
     border-radius: 5px;
