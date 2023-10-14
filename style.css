@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Span{
+    color: #d46531;
+}
+/* navbar start from here */
+
+#navbar img{
+    width: 100px;
+}
+#navbar ul li a{
+    color: black;
+    font-weight: 500;
+    padding: 0px 40px;
+    font-size: 18px;
+    transition: 0.7s;
+}
+#navbar ul li a:hover{
+    color: #d46531;
+}
+
+.dropdown-menu{
+    transition: all 1s ease-in !important;
+    background-color: #F36F30 !important;
+    padding: 0;
+    overflow: hidden;
+}
+.dropdown-menu a{
+    color: white !important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.849);
+    padding-bottom: 20px !important;
+    padding-top: 10px !important;
+}
+.dropdown-item{
+    transition: 0.8s;
+}
+.dropdown-item:hover{
+    background-color:#d46531 !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+/* navbar start from here */
+
+
+/* main page background image start from here */
+#main-page-img{
+    padding: 0;
+}
+/* main page background image end from here */
+
+
+
+/* Our plan part start from here */
+.card{
+    border: 3px solid #d46531;
+    margin-bottom: 20px;
+}
+#our-plans ul{
+    display: inline-block;
+}
+.underline1{
+    width: 180px;
+    background-color: #d46531;
+    height: 2px;
+    margin: auto;
+}
+.underline2{
+    width: 180px;
+    background-color: #d46531;
+    height: 3px;
+    margin: auto;
+}
+#our-plans h2{
+    padding: 5px 0px;
+    border-bottom: 2px solid #d46531;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    color: #d46531;
+}
+#our-plans h4{
+    text-align: center;
+}
+#our-plans img{
+    height: 200px;
+}
+
+#our-plans button{
+    margin-top: 10px;
+}
+#our-plans button{
+    padding: 10px 20px;
+    border: 2px solid #d46531;
+    color: #d46531;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: 0.5s;
+    font-size: 17px;
+}
+#our-plans button:hover{
+    background-color: #d46531;
+    color: #fff;
+}
+/* Our plan part start from here */
+
+/* <!-- request consultation part start from here --> */
+#consultation{
+    background-color: rgba(234, 226, 226, 0.637);
+}
+form input{
+    border-bottom: 2px solid #d46531 !important;
+    outline: none;
+}
+form textarea{
+    height: 150px !important;
+    margin: 15px 0px;
+    border-bottom: 2px solid #d46531 !important;
+ }
+
+ form select{
+    width: 100%;
+    height: 57px;
+    border-radius: 5px;
+    padding: 0px 8px;
+    border-bottom: 2px solid #d46531 !important;
+ } 
+ form button{
+    padding: 10px 20px;
+    border: 2px solid #d46531;
+    border-radius: 5px;
+    color: #d46531;
+    transition: 0.5s;
+ }
+ form button:hover{
+    background-color: #d46531;
+    color: #fff;
+ }
+/* <!-- request consultation part end from here --> */
