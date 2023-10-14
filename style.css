@@ -54,7 +54,13 @@ Span{
 }
 /* main page background image end from here */
 
+/* <!-- welcome part start from here --> */
+#welcome h1 ,h2{
+    text-wrap: nowrap !important;
+}
 
+
+/* <!-- welcome part end from here --> */
 
 /* Our plan part start from here */
 .card{
