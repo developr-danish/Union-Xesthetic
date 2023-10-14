@@ -162,31 +162,34 @@
     <h1 class="text-center pb-4">Request A <span>free Consultation </span></h1>
     <div class="row">
       <div class="col-12 col-sm-12 col-md-8 mx-md-auto">
-        <form action="">
+        <form action="" onsubmit="return validation()">
           <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-xl-6">
               <div class="form-floating mb-3">
                 <input
                   type="text"
-                  class="form-control" name="Enter Name" id="Enter Name" placeholder="Enter Name">
+                  class="form-control" name="Enter Name" id="username" placeholder="Enter Name">
                 <label for="formId1">Enter Name</label>
               </div>
+              <div class="mb-3" id="nameerror"></div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-xl-6">
               <div class="form-floating mb-3">
                 <input
                   type="email"
-                  class="form-control" name="formId1" id="formId1" placeholder="Enter Email">
+                  class="form-control" name="formId1" id="email" placeholder="Enter Email">
                 <label for="formId1">Enter Email</label>
               </div>
+              <div class="mb-3" id="emailerror"></div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-xl-6">
               <div class="form-floating mb-3">
                 <input
                   type="tel"
-                  class="form-control" name="Phone Number" id="Phone Number" placeholder="Phone Number">
+                  class="form-control" name="Phone Number" id="mobile" placeholder="Phone Number">
                 <label for="formId1">Phone Number</label>
               </div>
+              <div class="mb-3" id="mobileerror"></div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-xl-6">
               <select name="" id="">
@@ -218,6 +221,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
