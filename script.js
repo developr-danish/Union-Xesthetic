@@ -2,9 +2,11 @@ function validation(){
     let username = document.getElementById("username").value;
     let useremail = document.getElementById("email").value;
     let userphone = document.getElementById("mobile").value;
+    let usermessage = document.getElementById("message").value;
     let userStatus = false;
     let emailStatus = false;
     let mobileStatus = false;
+    let messageStatus = false;
     let charExp = /^[a-zA-Z]+$/
     let numExp = /^[0-9]+$/
 
@@ -42,11 +44,17 @@ if(username === ""){
         }
     }
 
+    if(usermessage === ""){
+        document.getElementById("messageerror").innerHTML = "Please Enter Message *"
+    }else{
+        document.getElementById("messageerror").innerHTML = "";
+        messageStatus = true;
+    }
 
 
 
 
-if(userStatus === true && emailStatus === true && mobileStatus === true){
+if(userStatus === true && emailStatus === true && mobileStatus === true && messageStatus === true){
     return true;
 }else{
     return false;
