@@ -11,7 +11,12 @@ Span{
     color: #d46531 !important;
 }
 /* navbar start from here */
-
+#navbar{
+    position: sticky;
+    z-index: 111;
+    top: 0;
+    background-color: #fff;
+}
 #navbar img{
     width: 100px;
 }
