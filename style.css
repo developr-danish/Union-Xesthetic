@@ -7,6 +7,9 @@
 Span{
     color: #d46531;
 }
+.active{
+    color: #d46531 !important;
+}
 /* navbar start from here */
 
 #navbar img{
